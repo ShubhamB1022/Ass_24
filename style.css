@@ -137,7 +137,7 @@ body{
     font-size: 35px;
     background-color: lightcyan;
     margin: 60px auto;
-    width:fit-content
+    width: fit-content;
 }
 
 .pet-section-container{
@@ -208,7 +208,7 @@ body{
 
 
 
-@media screen and (max-width: 768px)             /*Smartphone / Mobile Devices*/
+@media screen and (max-width: 500px)             /*Smartphone / Mobile Devices*/
 { 
     body{
         background-color: #fffffe;
@@ -233,9 +233,10 @@ body{
     }
 
     .petnav-container{
-        height: 140px;
+        height: 270px;
         background-color: #8c7851;
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-around;
         border-radius: 10px;
         border: 2px solid #8e723c;
@@ -292,7 +293,7 @@ body{
     }
     
     .why-to-choose-container{
-        height: 500px;
+        height: 680px;
         background-color: #eaddcf;
         box-shadow: 0 0 5px 0 black;
         display: flex;
@@ -303,8 +304,8 @@ body{
         margin-bottom: 10px;
     }
     .why-to-choose-card{
-        height: 190px;
-        width: 190px;
+        height: 170px;
+        width: 160px;
         background-color: white;
         margin: 20px auto;
         border-radius: 12px;
@@ -316,8 +317,8 @@ body{
     }
     
     .why-to-choose-img{
-        height: 100px;
-        width: 100px;
+        height: 70px;
+        width: 70px;
         display: block;
         margin: 5px auto;
         padding: 2px;
@@ -332,7 +333,7 @@ body{
     }
     
     .why-to-choose-discription{
-        font-size: smaller;
+        font-size: 12px;
         text-align: center;
         color: #716040;
 
@@ -342,135 +343,74 @@ body{
     }
     .pet-section-headings{
         color:#020826;
-        font-size: 35px;
+        font-size: 30px;
         background-color: lightcyan;
         margin-top: 80px;
     }
 
     .pet-section-container{
-    height: 950px;
-    box-shadow: 0 0 10px 0px black;
-    border-radius: 10px;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.pet-section-card{
-    height: 390px;
-    width: 300px;
-    background-color: #eaddcf;
-    margin: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px 0 black;
-    margin-top: 40px;
-    &:hover{
-        box-shadow: 0 0 10px 1px black;
-        transform: scale(1.05);
-        transition: 0.5s;
-        cursor: pointer;
+        height: 4000px;
+        box-shadow: 0 0 10px 0px black;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .pet-section-card{
+        height: 390px;
+        width: 300px;
+        background-color: #eaddcf;
+        margin: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px 0 black;
+        margin-top: 40px;
+        &:hover{
+            box-shadow: 0 0 10px 1px black;
+            transform: scale(1.05);
+            transition: 0.5s;
+            cursor: pointer;
+        }
+    
+    }
+    
+    .pet-section-img{
+        height: 250px;
+        width: 250px;
+        display: block;
+        margin: 10px auto;
+        margin-top: 13px;
+        border-radius: 20px;
+    }
+    
+    .pet-card-name{
+        font-weight: bolder;
+        margin-left: 10px;
+    }
+    
+    .pet-card-price{
+        font-weight: 900;
+        margin-left: 10px;
+    }
+    
+    .pet-card-btn{
+        display: block;
+        margin: 10px auto;
+        padding: 4px;
+        width: 150px;
+        background-color: #8c7851;
+        color: white;
+        border-radius: 20px;
+    
+        &:hover{
+            width: 200px;
+            transition: 0.5s;
+            cursor: pointer;
+            background-color: green;
+        }
     }
 
-}
-
-.pet-section-img{
-    height: 250px;
-    width: 250px;
-    display: block;
-    margin: 10px auto;
-    margin-top: 13px;
-    border-radius: 20px;
-}
-
-.pet-card-name{
-    font-weight: bolder;
-    margin-left: 10px;
-}
-
-.pet-card-price{
-    font-weight: 900;
-    margin-left: 10px;
-}
-
-.pet-card-btn{
-    display: block;
-    margin: 10px auto;
-    padding: 4px;
-    width: 150px;
-    background-color: #8c7851;
-    color: white;
-    border-radius: 20px;
-
-    &:hover{
-        width: 200px;
-        transition: 0.5s;
-        cursor: pointer;
-        background-color: green;
-    }
-}
-.pet-section-container{
-    height: 1900px;
-    box-shadow: 0 0 10px 0px black;
-    border-radius: 10px;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.pet-section-card{
-    height: 390px;
-    width: 300px;
-    background-color: #eaddcf;
-    margin: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px 0 black;
-    margin-top: 40px;
-    &:hover{
-        box-shadow: 0 0 10px 1px black;
-        transform: scale(1.05);
-        transition: 0.5s;
-        cursor: pointer;
-    }
-
-}
-
-.pet-section-img{
-    height: 250px;
-    width: 250px;
-    display: block;
-    margin: 10px auto;
-    margin-top: 13px;
-    border-radius: 20px;
-}
-
-.pet-card-name{
-    font-weight: bolder;
-    margin-left: 10px;
-}
-
-.pet-card-price{
-    font-weight: 900;
-    margin-left: 10px;
-}
-
-.pet-card-btn{
-    display: block;
-    margin: 10px auto;
-    padding: 4px;
-    width: 150px;
-    background-color: #8c7851;
-    color: white;
-    border-radius: 20px;
-
-    &:hover{
-        width: 200px;
-        transition: 0.5s;
-        cursor: pointer;
-        background-color: green;
-    }
-}
-
-
+    
 }    
                                             /*Smartphone / Mobile Devices*/     
 
