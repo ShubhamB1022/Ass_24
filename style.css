@@ -414,3 +414,209 @@ body{
 }    
                                             /*Smartphone / Mobile Devices*/     
 
+
+  @media screen and (min-width: 600px) and (max-width: 768px)             /*Tablet Devices*/
+  { 
+      body{
+          background-color: #fffffe;
+      }
+      .heading{
+          text-align: center;
+          font-size: 45px;
+          color: #020826;
+          margin-bottom: 1px;
+      }
+      .dancing-script{
+          font-family: 'Dancing Script';
+      }
+      .jura{
+          font-family: 'Jura';
+      }
+      
+      .sub-heading{
+          text-align: center;
+          color: #716040;
+          font-size: 12px;
+      }
+  
+      .petnav-container{
+          height: 130px;
+          background-color: #8c7851;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          border-radius: 10px;
+          border: 2px solid #8e723c;
+          margin-top: 40px;
+      }
+      
+      .petnav-card{
+          height: 100px;
+          width: 100px;
+          padding: 7px;
+          margin: 0px;
+      
+          &:hover{
+              transform: scale(1.05);
+              transition: 0.5s;
+          }
+      }
+      
+      .petnav-img{
+          height: 90px;
+          width: 100px;
+          border-radius: 50%;
+          display: block;
+          margin: 3px auto;
+  
+          &:hover{
+              box-shadow: 0 0 20px 0px black;
+          }
+      
+      }
+      
+      .petnav-name{
+          text-align: center;
+          margin-top: 7px;
+          font-family: 'Jura';
+          font-weight: bolder;
+          color: white;
+          font-size: small;
+      
+          &:hover{
+              color: rgb(242, 242, 85);
+          }
+      }
+      
+      .no-underline{
+          text-decoration: none;
+      }
+  
+      .why-to-choose-heading{
+          text-align: center;
+          margin-top: 50px;
+          color:#020826;
+          font-size: 30px;
+      }
+      
+      .why-to-choose-container{
+          height: 520px;
+          background-color: #eaddcf;
+          box-shadow: 0 0 5px 0 black;
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          align-items: center;
+          border-radius: 10px;
+          margin-bottom: 10px;
+      }
+      .why-to-choose-card{
+          height: 200px;
+          width: 200px;
+          background-color: white;
+          margin: 20px auto;
+          border-radius: 12px;
+          padding: 10px;
+          &:hover{
+              box-shadow: 0 0 25px 5px black;
+              transition: 0.5s;
+          }
+      }
+      
+      .why-to-choose-img{
+          height: 90px;
+          width: 90px;
+          display: block;
+          margin: 5px auto;
+          padding: 2px;
+      }
+      
+      .why-to-choose-text{
+          text-align: center;
+          font-weight: bolder;
+          color: red;
+          padding: 2px;
+          font-size: 15px;
+      }
+      
+      .why-to-choose-discription{
+          font-size: 14px;
+          text-align: center;
+          color: #716040;
+  
+      }
+      .text-center{
+          text-align: center;
+      }
+      .pet-section-headings{
+          color:#020826;
+          font-size: 30px;
+          background-color: lightcyan;
+          margin-top: 80px;
+      }
+  
+      .pet-section-container{
+          height: 2000px;
+          box-shadow: 0 0 10px 0px black;
+          border-radius: 10px;
+          display: flex;
+          justify-content: space-around;
+          flex-wrap: wrap;
+      }
+      
+      .pet-section-card{
+          height: 390px;
+          width: 300px;
+          background-color: #eaddcf;
+          margin: 20px;
+          border-radius: 10px;
+          box-shadow: 0 0 10px 0 black;
+          margin-top: 40px;
+          &:hover{
+              box-shadow: 0 0 10px 1px black;
+              transform: scale(1.05);
+              transition: 0.5s;
+              cursor: pointer;
+          }
+      
+      }
+      
+      .pet-section-img{
+          height: 250px;
+          width: 250px;
+          display: block;
+          margin: 10px auto;
+          margin-top: 13px;
+          border-radius: 20px;
+      }
+      
+      .pet-card-name{
+          font-weight: bolder;
+          margin-left: 10px;
+      }
+      
+      .pet-card-price{
+          font-weight: 900;
+          margin-left: 10px;
+      }
+      
+      .pet-card-btn{
+          display: block;
+          margin: 10px auto;
+          padding: 4px;
+          width: 150px;
+          background-color: #8c7851;
+          color: white;
+          border-radius: 20px;
+      
+          &:hover{
+              width: 200px;
+              transition: 0.5s;
+              cursor: pointer;
+              background-color: green;
+          }
+      }
+  
+      
+  }    
+                                              /*Tablet Devices*/                                          
